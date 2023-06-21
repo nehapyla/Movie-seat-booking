@@ -1,0 +1,107 @@
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(235, 235, 209);
+}
+
+article{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    border: 2px solid green;
+    border-radius: 10px;
+    background-color: rgb(166, 207, 166);
+}
+
+#spun{
+    margin: 1.5rem;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+div{
+    width: 2rem;
+    height: 2rem;
+    border: 2px solid green;
+    margin: 0.5rem;
+    border-radius: 5px;
+    color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div:hover{
+    color: white;
+    cursor: pointer;
+    background-color: green;
+}
+
+#row{
+    font-size: 1.3rem;
+    margin-right: 0.5rem;
+}
+
+#gapp{
+    margin-right: 5rem;
+}
+
+#par{
+    margin-top: 2rem;
+}
+
+#sold{
+    background-color: grey;
+    color: green;
+    border: 0;
+}
+
+#avail{
+    margin-left: 2rem;
+    background-color: transparent;
+}
+
+#sel{
+    background-color: green;
+    margin-left: 2rem;
+}
+
+.g{
+    background-color: green;
+}
+
+button{
+    width: 7rem;
+    height: 2rem;
+    background-color: brown;
+    border-radius: 10px;
+    border: 2px solid;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: green;
+    color: black;
+}
+
+.selected{
+    background-color: green;
+    color: white;
+}
